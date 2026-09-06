@@ -35,8 +35,8 @@ public:
                     last--;
                 }
                 
-                if(t->left) q.push(t->left);
-                if(t->right) q.push(t->right);
+                if(t->left!=NULL) q.push(t->left);
+                if(t->right!=NULL) q.push(t->right);
                
             }
             
